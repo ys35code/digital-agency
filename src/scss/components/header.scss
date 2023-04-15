@@ -1,11 +1,18 @@
 .desktopHeader {
-  background-color: aquamarine;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   max-width: $max-content-width;
   margin: auto;
   align-items: center;
+}
+
+.hda {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 
 .navheader {

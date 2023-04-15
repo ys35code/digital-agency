@@ -1,0 +1,54 @@
+.herosection {
+  margin-top: 80px;
+}
+
+.insideherodiv {
+  margin: auto;
+  //   background-color: aqua;
+  max-width: $max-content-width;
+}
+
+.insideherodiv {
+  display: flex;
+}
+
+.section-1 {
+  flex: 1;
+}
+
+.section-2 {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.bigtext {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  text-transform: capitalize;
+  max-width: 90%;
+}
+
+.smalltext {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  padding-right: 15rem;
+}
+
+.contactusbutton {
+  margin-top: 50px;
+  padding-left: 0;
+  background-color: #8eadd5;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 15px 24px;
+  text-decoration: none;
+  line-height: 27.5px;
+  text-transform: uppercase;
+}

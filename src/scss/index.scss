@@ -1,8 +1,15 @@
 @import "./variable.scss";
 @import "./components/header.scss";
 @import "./components/footer.scss";
+@import "./components/hero.scss";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
+  background: $background-color;
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -14,4 +21,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #272d38;
 }
