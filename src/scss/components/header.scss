@@ -1,0 +1,22 @@
+.desktopHeader {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: $max-content-width;
+  margin: auto;
+  align-items: center;
+}
+
+.navheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.navheader ul.navheader li {
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+}
