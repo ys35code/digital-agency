@@ -1,29 +1,48 @@
 .companysection {
-  margin-top: 180px;
-  padding-top: 180px;
+  margin-top: 20px;
+  padding-top: 10px;
   background-color: aqua;
 }
 
-// .insidecompanydiv {
-//   margin: auto;
-//   max-width: $max-content-width;
-//   display: flex;
-//   flex-direction: column;
-// }
+.insidecompanydiv {
+  margin: auto;
+  max-width: $max-content-width;
+  display: flex;
+  flex-direction: column;
+}
 
-// .csection-1 {
-//   flex: 1;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   align-items: center;
-// }
+.csection-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-// .csection-2 {
-//   flex: 1;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   align-items: center;
-//   padding: 1rem 0;
-// }
+.csection-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.spotify {
+  width: 200px;
+  padding-right: 3rem;
+}
+
+.dropbox {
+  width: 200px;
+  padding: 2rem;
+}
+
+.slack {
+  width: 200px;
+  padding: 2rem;
+}
+.zoom {
+  width: 200px;
+  padding-left: 3rem;
+}
